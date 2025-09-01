@@ -1,0 +1,99 @@
+body {
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    margin: 0px;
+}
+
+header {
+    background-color: bisque;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.logo img {
+    height: 110px;
+}
+
+.logo {
+    display: inline-flex;
+}
+
+h1 {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 240px;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    font-size: larger;
+}
+
+.button {
+    margin-left: 60px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: medium;
+    margin: 5px;
+}
+.mid{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 60px 200px;
+    padding: 30px;
+    background-color: bisque;
+}
+.control{
+    margin:60px 235px;
+}
+h2{
+    padding-left: 100px;
+    font-size: larger;
+    background-color:rgb(275, 255, 225);
+    border: 1px solid black;
+    border-radius: 100px;
+}
+.mid img {
+    height: 300px;
+}
+
+.mission{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 60px 200px;
+    padding: 30px;
+    background-color: bisque;
+}
+.miss{
+    margin:60px 235px;
+}
+.mission img {
+    height: 300px;
+    padding-left: 45px;
+}
+h3{
+    padding-left: 150px;
+    font-size: xx-large;
+    background-color:rgb(275, 255, 225);
+    border: 1px solid black;
+    border-radius: 100px;
+}

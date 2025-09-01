@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gloria Jeans</title>
+
+<style>
+
+body{margin:0px;}
+
+.container {
+    display: grid;
+    grid-template-areas: 'left right'; 
+    gap: 0px;
+}
+
+.left {
+background-color:black;
+    grid-area: left;
+    width: 400px;
+    border: 2px solid red;
+}
+
+.right {
+    grid-area: right;
+    width: 950px; 
+    border: 2px solid pink;
+background-color: yellow;
+
+}
+h1{
+font-family: lobester , cooper black;
+text-align:center;
+}
+label{
+display:block;
+}
+.form{
+
+border:2px dotted black;
+display: grid; /* Add display grid for form elements */
+            grid-template-columns: 1fr; /* Use a single column layout */
+            gap: 16px;
+
+}
+
+
+img{
+height:650px;
+width:400px;
+}
+
+
+.box{ display: grid;
+    grid-template-areas: 'form side'; 
+  
+gap: 20px;
+            align-items: center;
+	display:block;
+}
+
+.side{grid-area:side;
+border:4px solid black;
+background-color:light yellow;
+width:200px;}
+</style>
+</head>
+
+
+<body>
+<div class="container">
+    <div class="left"> <img src="C:\Users\Alisha\OneDrive\Documents\UNIVERSITY\itc\ITC LAB\Html Grid-Sytem\gloria-jeans-islamabad.png" alt=Dummy></img> </div>
+    <br>
+<div class="right"> <h1>Gloria Jeans</h1>
+<h4>Our Story</h4>
+<p>GLORIA JEAN’S COFFEES IS ONE OF THE WORLD’S BIGGEST PREMIUM COFFEE CHAINS. BASED IN AUSTRALIA, IT OPERATES MORE THAN 1000 OUTLETS IN OVER 40 COUNTRIES.</p>
+<p>In Pakistan, Gloria Jean’s Coffees operates outlets in two formats, each designed to suit different locations, such as shopping malls, multi-purpose buildings, custom-built and free-standing structures.
+</p>
+<p>  People from all walks of life can become successful Gloria Jean’s Coffees franchise partners. No prior coffee knowledge is required, although you need a passion for all things coffee! We will arm you with the tools you need to set up and run your coffee house.
+
+When you join our franchise network, we are committed to supporting your success, offering assistance in areas such as store management and staff training. Being part of a franchised system also means you have access to tried and tested operating systems, designed to help your coffee house grow from strength to strength.
+
+ </p>
+<h2> <center >IF YOU WISH TO JOIN HANDS PLEASE FILL IN THE FOLLOWING FORM</h2>
+
+<div class="box">
+<div class="form">
+<form action="#">
+<center>
+<label for="name">Your Name:</label>
+<input id="name" type="text" placeholder="Enter your name" required>
+
+<label for="number">Your Number:</label>
+<input id="number" type="phone-number" placeholder="Enter your contact number" required>
+
+<label for="email">Your Email:</label>
+<input id="email" type="email" placeholder="Enter your email" required>
+<br><br>
+<button type="#"> SUBMIT</button></center>
+
+</form>
+
+<div class="side">
+<p>For Qurey please contact:<br>xyz@gmail.com or xxx-xxxxxxxx</p>
+</div>
+
+</div>
+</div>
+ </div>
+</div>
+
+</body>
+</html>

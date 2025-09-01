@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alkaram Studio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        /* Header styles */
+        #top-header {
+            background-color: wheat; 
+            padding: 10px;
+            width: 100%;
+            z-index: 1000;
+            text-align: center;
+        }
+
+        #best-seller {
+            margin-top: 10px;
+        }
+
+        /* Logo styles */
+        #logo {
+            text-align: left;
+            display: flex; /* make child elements align in a row */
+            align-items: center; /* vertically center the items */
+        }
+
+        .logo {
+            height: 110px;
+            width: 135px;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: white;
+            position: static;
+            width: 100%;
+            top: 44px; /* Adjusted top position */
+            z-index: 1000;
+            text-align: right;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            padding: 15px;
+            display: inline-block;
+            padding-left: 120px;
+        }
+
+        /* Half image styles */
+        #half-image {
+            position: relative;
+            height: 80vh;
+            }
+
+        .half-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            max-width: 100%;
+            height: auto;
+        }
+
+        button {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #574651;
+            color: #fff;
+            border: none;
+            box-shadow: #f0f0f0;
+            cursor: pointer;
+            border-radius: 40px;
+        }
+
+        .item1 {
+            display: flex;
+            background-color: white;
+            margin-top: 50px;
+        }
+
+        .box {
+            flex: 1;
+            margin: 10px;
+        }
+
+        /* Div with 3 Divs Inline styles */
+        #inline-divs {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+            background-color: #f0f0f0; 
+            padding: 10px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Additional styles for lists */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <div id="top-header">
+        <div id="best-seller">Best Seller</div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <!-- Logo -->
+    <nav>
+        <div id="logo">
+            <img src="logo.png" alt="Your Logo" class="logo">
+            <div id="Navigation">
+                <a href="sale.html">SALE</a>
+                <a href="new.html">NEW</a>
+                <a href="winterrr.html">WINTER </a>
+                <a href="kids.html">KIDS</a>
+                <a href="man.html">MAN</a>
+                <a href="#">BAGS</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Half Image with Button -->
+    <div id="half-image">
+        <img src="halfimg.jfif" alt="half img" class="half-image">
+        <button>Explore Now</button>
+    </div>
+
+    <div id="top-header">
+        <div id="best-seller">Our Latest Collection</div>
+    </div>
+
+    <div class="item1">
+        <div class="box"><img src="picture\FW-73.1-23-Mustard-1.webp" height="400px" width="100%"></img><br>PRINTED 2 PEICES SUIT<br>RS:3000
+            <br><form><input type="submit" value="ADD TO CART" style="height:30px;width: 295px;background-color:gainsboro; border: 0;"></form></div>
+        <div class="box"><img src="picture\WSDE2P-12-09-23_1.webp"height="400px" width="100%"></img><br>PRINTED 2 PEICES SUIT<br>RS:7000
+            <br><form><input type="submit" value="ADD TO CART" style="height:30px;width: 295px;background-color:gainsboro; border: 0;"></form></div>
+        <div class="box"><img src="picture\SD2P-12-101_1.webp"height="400px" width="100%"></img><br>PRINTED 2 PEICES SUIT<br>RS:3000
+            <br><form><input type="submit" value="ADD TO CART" style="height:30px;width: 295px;background-color:gainsboro; border: 0;"></form></div>
+        <div class="box"><img src="picture\FDE2P-11-007_1.webp"height="400px" width="100%"></img><br>PRINTED 2 PEICES SUIT<br>RS:4000
+            <br><form><input type="submit" value="ADD TO CART" style="height:30px;width: 295px;background-color:gainsboro; border: 0;"></form>
+        </div>
+        </div>
+        <div class="item1">
+            <div class="box"><img src="picture\WSDE2P-12-03_1.webp" height="400px" width="100%"></img><br>PRINTED 2 PEICES SUIT<br>RS:8000
+                <br><form><input type="submit" value="ADD TO CART" style="height:30px;width: 295px;background-color:gainsboro; border: 0;"></form></div>
+            <div class="box"><img src="picture\WSP2P-12-117_11.webp"height="400px" width="100%"></img><br>PRINTED 2 PEICES SUIT<br>RS:6000
+                <br><form><input type="submit" value="ADD TO CART" style="height:30px;width: 295px;background-color:gainsboro; border: 0;"></form></div>
+            <div class="box"><img src="picture\SFLR-67-23-Carrot_red.webp"height="400px" width="100%"><br>PRINTED 3 PEICES SUIT<br>RS:5000</img>
+                <br><form><input type="submit" value="ADD TO CART" style="height:30px;width: 295px;background-color:gainsboro; border: 0;"></form></div>
+            <div class="box"><img src="picture\WSP2P-12-114_1.webp"height="400px" width="100%"></img><br>PRINTED 2 PEICES SUIT<br>RS:4000
+                <br><form><input type="submit" value="ADD TO CART" style="height:30px;width: 295px;background-color:gainsboro; border: 0;"></form></div>
+            </div>
+    <br>
+    
+        <!-- Div with 3 Divs Inline -->
+        <div id="inline-divs">
+            <div class="contact-section">
+                <h2>INFORMATION</h2>
+                <ul>
+                    <li>About Us</li>
+                    <li>Shipping and Handling</li>
+                    <li>Track Order</li>
+                    <li>Store Locator</li>
+                    <li>Blogs</li>
+                    <li>Catalogs</li>
+                </ul>
+            </div>
+    
+            <div class="contact-section">
+                <h2>CUSTOMER CARE</h2>
+                <ul>
+                    <li>Contact Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Return & Exchange</li>
+                    <li>FAQ's</li>
+                    <li>Disclaimer</li>
+                </ul>
+            </div>
+    
+            <div class="contact-section">
+                <h2>CONTACT US</h2>
+                <p>Phone: +92 2137130271</p>
+                <p>Email: <a href="mailto:care@alkaramstudio.com">care@alkaramstudio.com</a></p>
+                <p>Customer Care Hours: Monday - Saturday | 09:00 AM - 06:00 PM</p>
+            </div>
+        </div>
+    
+        
+    <!-- Footer -->
+    <footer>
+        &copy; 2023 Alkaram Studio. All rights reserved.
+    </footer>
+
+</body>
+</html>

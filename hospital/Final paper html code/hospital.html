@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paw Haven Pet Hospital</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('background.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            color: #333; /* Dark text color for better contrast */
+            font-family: 'Arial', sans-serif;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #4CAF50;
+        }
+
+        .header img {
+            width: 130px;
+            height: 80px;
+            filter: invert(100%);
+        }
+
+        .logo {
+            line-height: 15px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            font-size: 25px;
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover, .navbar li a.active {
+            text-decoration: underline;
+            color: #FFD700;
+        }
+
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 20px;
+            border: 2px solid #008CBA;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #008CBA;
+        }
+
+        .container {
+            border: 2px solid #4CAF50;
+            margin: 60px auto; /* Center the container */
+            padding: 30px;
+            width: 60%;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #008CBA;
+            margin: 10px auto;
+            border-radius: 5px;
+        }
+
+        .box {
+            border: 2px #4CAF50 solid;
+            margin: 40px auto; /* Center the box */
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Paw Haven Pet Hospital">
+            <div>Paw Haven Pet Hospital</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="sactive">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+	<img src="welcome.jpg" alt="welcome"></img>
+        <h1>Welcome to Paw Haven Pet Hospital!</h1>
+        <p>Your pet's health is our top priority. We provide compassionate care for all furry friends.</p>
+        <form action="#">
+            <div class="form-group">
+                <input type="text" placeholder="Pet's Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Owner's Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Contact Number">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Appointment Date">
+            </div>
+            <button class="btn">Schedule Appointment</button>
+        </form>
+    </div>
+    <div class="box">
+	
+	<img src="mission.png" alt="welcome"></img>
+        <h1>OUR MISSION</h1>
+        <p>At Paw Haven Pet Hospital, we are dedicated to providing exceptional veterinary care with love and compassion.</p>
+        <button class="btn">Know More</button>
+    </div>
+</body>
+</html>

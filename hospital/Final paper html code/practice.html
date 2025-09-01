@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Store</title>
+    <style>
+        body{
+            margin: auto;
+            padding: 0%;
+            background-image: url("background.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: black;
+            color: rgb(14, 14, 15);
+        }
+        header{
+            display: flex;
+            align-items: center;
+            align-content: space-between;
+            background-color: rgb(245, 254, 251);
+            border: 1px solid aquamarine;
+            color: black;
+            padding: 10px;
+           
+        }
+        nav{
+            display:inline-block;
+            margin-left: 450px;
+        }
+        nav li{
+            text-decoration: none;
+            display: inline-block;
+            padding: 12px;
+            text-align: center;
+            font-size: large;
+            
+            
+        }
+        .btn{
+            background-color: #4CAF50;
+            display: inline;
+            height: fit-content;
+            width: fit-content;
+            border: 7px solid #4CAF50;
+            border-radius: 20px;
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+        .logo{
+            height: 52px;
+            padding: 12px;
+        }
+        #button{
+            padding-left: 70px;
+            font-size: 25px;
+            
+           
+            
+        }
+        .container {
+            border: 2px solid #98e79b;
+            margin: 60px auto; /* Center the container */
+            padding: 30px;
+            width: 60%;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #008CBA;
+            margin: 10px auto;
+            border-radius: 5px;
+        }
+
+        .box {
+            border: 2px #4CAF50 solid;
+            margin: 40px auto; /* Center the box */
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="logo.png" alt="logo image "></img>
+        <h1>Pet Hospital</h1>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+            
+        </nav>
+        <div id="button">
+        <button class="btn">Call now</button>
+        <button class="btn">Email us </button>
+    </div>
+    </header>
+            
+    <div class="container">
+        <img src="welcome.jpg" alt="welcome"></img>
+            <h1>Welcome to Paw Haven Pet Hospital!</h1>
+            <p>Your pet's health is our top priority. We provide compassionate care for all furry friends.</p>
+            <form action="#">
+                <div class="form-group">
+                    <input type="text" placeholder="Pet's Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Owner's Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Contact Number">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Appointment Date">
+                </div>
+                <button class="btn">Schedule Appointment</button>
+            </form>
+        </div>
+        <div class="box">
+        
+        <img src="mission.png" alt="welcome"></img>
+            <h1>OUR MISSION</h1>
+            <p>At Paw Haven Pet Hospital, we are dedicated to providing exceptional veterinary care with love and compassion.</p>
+            <button class="btn">Know More</button>
+        </div>
+    
+    <footer>Copyrights reserved</footer>
+</body>
+</html>
